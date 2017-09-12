@@ -8,18 +8,64 @@
 /* BASIC SELECTORS */
 
 /* Tag selectors */
+  nav {
+    background-color: brown;
+  }
 
+  main {
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  p {
+    color: white;
+    font-size: 12px;
+  }
+
+  p {
+    color: black;
+  }
+
+  article {
+    background-color: green;
+    font-size: 28px;
+  }
+
+  blockquote {
+    background-color: red;
+  }
 
 /* Class selectors */
+  .inline-text {
+    font-weight: bold;
+  }
 
+  .highlight {
+    font-style: italic;
+    font-size: 20px;
+  }
 
 /* ID selectors */
-
+  #main-article {
+    padding: 30px;
+  }
 
 
 /* ADVANCED SELECTORS */
 
 /* Combining selectors */
+  span.inline-text {
+    background-color: pink;
+  }
 
+  article > h1 {
+    border: 5px solid blue;
+  }
 
+  header h2 {
+    background-color: purple;
+  }
 /* Pseudo-selectors */
+  article span:hover {
+    background-color: yellow;
+  }
